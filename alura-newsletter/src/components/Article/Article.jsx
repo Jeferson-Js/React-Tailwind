@@ -1,8 +1,8 @@
 import React from "react";
 
-const Article = ({ title, text, tags, image, alt }) => {
+const Article = ({ title, text, tags }) => {
   return (
-    <div className="p-5 bg-gray-200 dark:bg-dark-200 sm:rounded-xl sm:shadow-lg flex flex-col items-center">
+    <div className="p-5 bg-gray-200 dark:bg-dark-200 sm:rounded-xl sm:shadow-lg flex flex-col items-center sm:hover:shadow-gray-500 sm:hover:dark:shadow-black">
       <h3 className="text-xl text-alura-200 dark:text-gray-200 font-bold mb-4">{title}</h3>
       <div className="w-full sm:flex flex-row justify-center gap-2 pr-5 hidden">
         {

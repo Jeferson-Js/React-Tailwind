@@ -8,7 +8,7 @@ const App = () => {
   const hasUser = Boolean(user);
   return (
     <div className="h-screen">
-      <Header user={user}/>
+      <Header user={user} />
       {hasUser && <ArticleList />}
       {hasUser || <Form onSubmit={setUser} />}
     </div>
