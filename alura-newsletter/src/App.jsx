@@ -7,7 +7,7 @@ const App = () => {
   const [user, setUser] = useState();
   const hasUser = Boolean(user);
   return (
-    <div>
+    <div className="h-screen">
       <Header user={user}/>
       {hasUser && <ArticleList />}
       {hasUser || <Form onSubmit={setUser} />}
