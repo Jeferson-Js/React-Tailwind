@@ -1,10 +1,12 @@
 import React from 'react'
+import ArticleList from './components/ArticleList/ArticleList'
 import Header from './components/Header/Header'
 
 const App = () => {
   return (
     <div>
       <Header/>
+      <ArticleList/>
     </div>
   )
 }
